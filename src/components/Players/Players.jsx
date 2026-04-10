@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { use } from 'react';
 
-const Players = () => {
+const Players = ({playersPromise}) => {
+    const data = use(playersPromise)
+    console.log(data)
     return (
         <div>
-            
+            <h1>players : {data.length}</h1>
         </div>
     );
 };
