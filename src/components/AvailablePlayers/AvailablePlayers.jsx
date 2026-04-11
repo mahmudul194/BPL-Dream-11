@@ -1,27 +1,48 @@
 import React from "react";
+import { FaUser } from "react-icons/fa";
+import { IoMdFlag } from "react-icons/io";
 
 const AvailablePlayers = ({ players }) => {
-  console.log(players);
   return (
-    <div className="container mx-auto flex" >
-      <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="container mx-auto">
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 justify-items-center mt-20">
+        {
+            players.map(player =>{
+                return <div>
+      <div className="card bg-base-100 w-full max-w-sm shadow-sm m-5">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
+            src={player.playerImg}
+            alt="Virat Kohli"
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+          <h2 className="card-title"><FaUser/>{player.playerName}</h2>
+
+          <div className="flex justify-between gap-2 items-center">
+          <div className="flex items-center gap-2">
+            <IoMdFlag/>
+            <p>{player.playerCountry}</p>
+          </div>
+            <button className="btn" >{player.playerType}</button>
+          </div>
+          <div className="divider" ></div>
+          <h2 className="font-bold" >rating: {player.rating}</h2>
+          <div className="flex justify-between gap-4 font-bold">
+            <p>{player.battingStyle}</p>
+            <p className="text-right" >{player.bowlingStyle}</p>
+          </div>
+          <div className="card-actions justify-between">
+            <p className="font-semibold" >Price : ${player.price}</p>
+            <button className="btn">Choose Player</button>
           </div>
         </div>
       </div>
+    </div>
+            })
+        }
+        </div>
+    
     </div>
   );
 };
