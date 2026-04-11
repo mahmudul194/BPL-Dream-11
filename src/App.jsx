@@ -6,7 +6,7 @@ import Players from './components/Players/Players'
 
   const fetchPlayer = async ()=>{
     const res = await fetch('/data.json')
-    return res.json;
+    return res.json();
   }
 
 function App() {
