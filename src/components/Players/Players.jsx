@@ -1,5 +1,6 @@
 import React, { use, useState } from 'react';
 import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
+import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const Players = ({playersPromise}) => {
     const players = use(playersPromise)
@@ -8,14 +9,14 @@ const Players = ({playersPromise}) => {
     return (
         <div className='container mx-auto my-15' >
             <div className='flex justify-between gap-4 items-center mb-5'>
-            <h1 className='font-bold text-4xl' >Available Players</h1>
+            { isSelected === 'available' ? <h1 className='font-bold text-4xl' >Available Players</h1> : <h1 className='font-bold text-4xl' >Selected Players</h1> }
             <div>
                 <button onClick={ () => setSelected('available')} className={`btn ${isSelected === 'available' ? 'bg-[#E7F929]' : 'btn'} rounded-r-none rounded-l-xl`} >Available</button>
-                <button onClick={()=> setSelected('selected')} className={`btn rounded-l-none ${isSelected === 'selected' ? 'bg-[#E7F929]' : 'btn'} rounded-r-xl`} >selected</button>
+                <button onClick={()=> setSelected('selected')} className={`btn rounded-l-none ${isSelected === 'selected' ? 'bg-[#E7F929]' : 'btn'} rounded-r-xl`} >selected(0)</button>
             </div>
             </div>
 
-            <AvailablePlayers players={players} ></AvailablePlayers>
+            { isSelected === 'available' ? <AvailablePlayers players={players}/> : <SelectedPlayers/>}
         </div>
     );
 };
