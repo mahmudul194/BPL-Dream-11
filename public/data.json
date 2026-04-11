@@ -7,7 +7,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "price": 120000,
-    "playerImg": "https://i.pravatar.cc/150?img=1"
+    "playerImg": "https://imgs.search.brave.com/yuVpnp3APEAE9Ko6LdL1wvnnuVI2Vgz-NsXFKb3y31c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGluZHVzdGFudGlt/ZXMuY29tL2h0LWlt/Zy9pbWcvMjAyNS8w/Mi8yMy81NTB4MzA5/L1RPUFNIT1QtQ1JJ/Q0tFVC1DVC0yMDI1/LVBBSy1JTkQtMjBf/MTc0MDMzMDYyNDU1/NF8xNzQwMzMxNzYx/MTI5LmpwZw"
   },
   {
     "playerName": "Babar Azam",
@@ -17,7 +17,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 110000,
-    "playerImg": "https://i.pravatar.cc/150?img=2"
+    "playerImg": "https://imgs.search.brave.com/3qXh-PdseryMjo1DDX1TSgULeBF1YgUUu0IdThJY738/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hc3NldHR5cGUu/Y29tL2d1bGZuZXdz/LzIwMjUtMDItMjMv/N2pmMGR4MGovbmV3/c21sX2FmcF9jb21f/MjAyNTAyMjNUMDgz/NTE0Wl9kb2NfMzZ5/Zzh3eS5qcGVnP3c9/MzIwJmF1dG89Zm9y/bWF0LGNvbXByZXNz/JmZpdD1tYXg"
   },
   {
     "playerName": "Joe Root",
@@ -27,7 +27,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 105000,
-    "playerImg": "https://i.pravatar.cc/150?img=3"
+    "playerImg": "https://imgs.search.brave.com/qectQ7pRUZFltyc0xDXGFzyQzUX6u7RiPoupZ2ceQPI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvODcx/NTMxOC5qcGc"
   },
   {
     "playerName": "Kane Williamson",
@@ -37,7 +37,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 108000,
-    "playerImg": "https://i.pravatar.cc/150?img=4"
+    "playerImg": "https://imgs.search.brave.com/8G0V5a3sbSs7bV1COytycWXDmi645MbixMyy3RMnJbc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/NDQxMDQ1MS9waG90/by9icmlzYmFuZS1h/dXN0cmFsaWEta2Fu/ZS13aWxsaWFtc29u/LXBvc2VzLWR1cmlu/Zy10aGUtbmV3LXpl/YWxhbmQtaWNjLW1l/bnMtdDIwLWNyaWNr/ZXQtd29ybGQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVpH/MzlQTjZvYVlNMXlX/OVdLaG9qOWFYcXJz/Zk01d1V2M0RyVUc2/SXpvS2s9"
   },
   {
     "playerName": "Ben Stokes",
@@ -47,7 +47,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "price": 115000,
-    "playerImg": "https://i.pravatar.cc/150?img=5"
+    "playerImg": "https://imgs.search.brave.com/_waYoWYsPUKUBXeuJo8ZBWGk-BmaQjWD0bST0LBCt-o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS81/ZWNlNzkzMzFjNjZj/OGI5YmM2YmZmMWUv/NjA3ODM2NjA4NzNl/YTk0NTU3MTFhOTM3/X1RoJTIwQmVuJTIw/U3Rva2VzJTIwQ2Vs/ZWJyYXRlcy5qcGc"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -57,7 +57,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
     "price": 112000,
-    "playerImg": "https://i.pravatar.cc/150?img=6"
+    "playerImg": "https://imgs.search.brave.com/DTwqvyV8gdm7XCILMZDEBaCDo-o4NG4aGpcMaas1-UA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQz/NDk0ODYzNS9waG90/by9icmlzYmFuZS1h/dXN0cmFsaWEtc2hh/a2liLWFsLWhhc2Fu/LXBvc2VzLWR1cmlu/Zy10aGUtYmFuZ2xh/ZGVzaC1pY2MtbWVu/cy10MjAtY3JpY2tl/dC13b3JsZC1jdXAu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVZ6SEVRNW5tcHVm/aWF3cUprWkE2U1Ju/RFZsdVFBOGQ5VFlJ/bkhlQ2E0YkU9"
   },
   {
     "playerName": "Jasprit Bumrah",
@@ -67,7 +67,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 118000,
-    "playerImg": "https://i.pravatar.cc/150?img=7"
+    "playerImg": "https://imgs.search.brave.com/Q2V0qgz7g7igqR0e_syHBwMjWe8myiP-rG4oVwrR59A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nb3lh/aGlsbHMuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI1LzAz/L2phc3ByaXQtYnVt/cmFoLmpwZw"
   },
   {
     "playerName": "Trent Boult",
@@ -77,7 +77,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
     "price": 102000,
-    "playerImg": "https://i.pravatar.cc/150?img=8"
+    "playerImg": "https://imgs.search.brave.com/45DNkNnC4Op6155UeI-chKPxMiUOsnqrMxwkq7K03J4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDY1MTMy/MzYuanBn"
   },
   {
     "playerName": "Jos Buttler",
@@ -87,7 +87,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
     "price": 109000,
-    "playerImg": "https://i.pravatar.cc/150?img=9"
+    "playerImg": "https://imgs.search.brave.com/EpThsi_doDXxIh35qsMvThCfIHqw3UmVSltk46MnzLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTg0/MjkzNTUyNS9waG90/by9icmlkZ2V0b3du/LWJhcmJhZG9zLWpv/cy1idXR0bGVyLW9m/LWVuZ2xhbmQtbG9v/a3Mtb24tZHVyaW5n/LXRoZS10aGlyZC1j/Zy11bml0ZWQtb25l/LWRheS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9V24xUVVE/WnpHWkFsYzBMWFV2/RGVobGNqOEVieUVy/QXJHMG5iRHZyUE1p/VT0"
   },
   {
     "playerName": "Rashid Khan",
@@ -97,6 +97,6 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
     "price": 113000,
-    "playerImg": "https://i.pravatar.cc/150?img=10"
+    "playerImg": "https://imgs.search.brave.com/WP-wqkc38rCQ0gxsi4knCGuEwretZiPBdEqlrtahcRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzAy/NzgvNDU2NS82NjQ5/L2ZpbGVzL1doYXRz/QXBwX0ltYWdlXzIw/MjMtMTAtMzFfYXRf/MDIuNDAuMjAud2Vi/cD92PTE2OTg3MDA3/MTk"
   }
 ]
