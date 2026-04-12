@@ -3,23 +3,28 @@ import { FaUser } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { IoMdFlag } from "react-icons/io";
 
-const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) => {
-    const [isSelected, setIsSelected] = useState(false)
+const Card = ({
+  player,
+  setCoin,
+  coin,
+  setSelectedPlayers,
+  selectedPlayers,
+}) => {
+  const [isSelected, setIsSelected] = useState(false);
 
-    const handleChoosePlayer = () =>{
-        let newCoin = coin - player.price
-        if(newCoin >= 0){
-            setCoin(coin - player.price)
-            toast.success("Player Selected !")
-        }
-        else{
-            toast.error("Not enough coin to purchase this player.");
-            return;
-        }
-        setIsSelected(true)
-        setSelectedPlayers([...selectedPlayers, player])
+  const handleChoosePlayer = () => {
+    let newCoin = coin - player.price;
+    if (newCoin >= 0) {
+      setCoin(coin - player.price);
+      toast.success("Player Selected !");
+    } else {
+      toast.error("Not enough coin to purchase this player.");
+      return;
     }
-    
+    setIsSelected(true);
+    setSelectedPlayers([...selectedPlayers, player]);
+  };
+
   return (
     <div>
       <div>
@@ -48,7 +53,13 @@ const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) =>
             </div>
             <div className="card-actions justify-between">
               <p className="font-semibold">Price : ${player.price}</p>
-              <button onClick={handleChoosePlayer} disabled={isSelected ? true : false} className="btn">{isSelected === true ? 'Selected' : 'Choose player'}</button>
+              <button
+                onClick={handleChoosePlayer}
+                disabled={isSelected ? true : false}
+                className="btn"
+              >
+                {isSelected === true ? "Selected" : "Choose player"}
+              </button>
             </div>
           </div>
         </div>
