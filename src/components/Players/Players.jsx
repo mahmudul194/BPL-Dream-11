@@ -3,6 +3,7 @@ import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
 import SelectedPlayers from '../SelectedPlayers/SelectedPlayers';
 
 const Players = ({playersPromise, setCoin, coin}) => {
+    const [selectedPlayers, setSelectedPlayers] = useState([])
     const players = use(playersPromise)
     const [isSelected, setSelected] = useState("available");
 
@@ -16,7 +17,7 @@ const Players = ({playersPromise, setCoin, coin}) => {
             </div>
             </div>
 
-            { isSelected === 'available' ? <AvailablePlayers setCoin={setCoin} players={players} coin={coin}/> : <SelectedPlayers/>}
+            { isSelected === 'available' ? <AvailablePlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setCoin={setCoin} players={players} coin={coin}/> : <SelectedPlayers selectedPlayers={selectedPlayers} />}
         </div>
     );
 };
