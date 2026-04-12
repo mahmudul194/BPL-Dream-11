@@ -3,7 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { IoMdFlag } from "react-icons/io";
 
-const Card = ({ player, setCoin, coin }) => {
+const Card = ({ player, setCoin, coin, setSelectedPlayers, selectedPlayers }) => {
     const [isSelected, setIsSelected] = useState(false)
 
     const handleChoosePlayer = () =>{
@@ -17,6 +17,7 @@ const Card = ({ player, setCoin, coin }) => {
             return;
         }
         setIsSelected(true)
+        setSelectedPlayers([...selectedPlayers, player])
     }
     
   return (
