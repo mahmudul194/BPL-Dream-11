@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoMdFlag } from "react-icons/io";
 
 const Card = ({ player }) => {
+    const [isSelected, setIsSelected] = useState(false)
+
+    
   return (
     <div>
       <div>
@@ -31,7 +34,7 @@ const Card = ({ player }) => {
             </div>
             <div className="card-actions justify-between">
               <p className="font-semibold">Price : ${player.price}</p>
-              <button className="btn">Choose Player</button>
+              <button onClick={() => setIsSelected(true)} disabled={isSelected ? true : false} className="btn">{isSelected === true ? 'Selected' : 'Choose player'}</button>
             </div>
           </div>
         </div>
